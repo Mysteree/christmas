@@ -16,7 +16,7 @@ $(document).ready(function() {
         var correctPass = passwordEntry();
         var showPage = function (password) {
         switch (password) {
-            case 'Correct Password':
+            case 'Yes! You have a freckle on your right thumb!':
                 $('#dimScreen').fadeOut('slow');
                 break;
             default:
